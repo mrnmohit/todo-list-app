@@ -17,11 +17,6 @@ phase:
   build:
     commands:
       - echo  Teststing...
-      # yarn test
+      # npm test
       - echo Building..
-      # yarn build
-    artifacts:
-      files:
-        - "**/*"
-        discard-path: no
-        base-direction: dist
+      - npm start
